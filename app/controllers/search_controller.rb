@@ -22,5 +22,5 @@ class SearchController < ApplicationController
         @search << search
         end
       end
-    end
+    end５
   end
