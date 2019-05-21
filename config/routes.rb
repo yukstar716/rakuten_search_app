@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  root to: 'search#search'
+  get 'rakuten_search' => 'rakuten#search'
 end

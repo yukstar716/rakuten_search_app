@@ -1,8 +1,0 @@
-<% if @search.present? %>
-  <% @search.each do |search| %>
-    <div class="list">
-      <%= link_to (image_tag(search.image_url, style: "width: 
-      70px; height: 100px; display: inline-block;")), search.url %>
-    </div>
-  <% end %>
-<% end %>
